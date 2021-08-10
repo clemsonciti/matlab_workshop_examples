@@ -1,4 +1,5 @@
 clear all
+disp ('Hello');
 num = xlsread ('matlab_workshop_dataset.xls');
 id = num (:, 1);
 sys = num (:, 2);
